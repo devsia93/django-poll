@@ -1,9 +1,9 @@
 # Установка
 Клонируем репозиторий и переходим в папку с проектом:
 ```bash
-git clone 
+git clone https://github.com/devsia93/django_poll.git
 
-cd polls
+cd django_polls
 ```
 
 Копируем файл `example.env` в файл `.env`:
@@ -35,17 +35,17 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 
-python backend/manage.py migrate
+python manage.py migrate
 ```
 
 Создаем суперпользователя и отвечаем на вопросы, которые задаст утилита:
 
 ```bash
-python backend/manage.py createsuperuser
+python manage.py createsuperuser
 ```
 
 Запускаем сервер:
 
 ```bash
-python backend/manage.py runserver
+python manage.py runserver
 ```
