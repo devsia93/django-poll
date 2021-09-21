@@ -1,9 +1,9 @@
 # Установка
 Клонируем репозиторий и переходим в папку с проектом:
 ```bash
-git clone https://github.com/devsia93/django_poll.git
+git clone https://github.com/devsia93/django-poll.git
 
-cd django_polls
+cd django-polls
 ```
 
 Копируем файл `example.env` в файл `.env`:
